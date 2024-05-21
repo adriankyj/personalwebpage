@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="images/bg.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <title>Adrian Javier Portfolio</title>
+</head>
+
+<body>
+
+  <section>
+    <header class="header main-menu">
+      <div class="logo">
+        <a class="logo" href="#">
+          <svg width="124" height="50" viewBox="0 0 124 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            
+          </svg>
+        </a>
+      </div>
+      <div class="nav-all align-self-center">
+        <ul>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#dreamjob">Dream Job</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hobbiesinterest">Hobbies Interest</a>
+          </li>
+        </ul>
+      </div>
+      <div class="header-social-icon">
+        
+        </a>
+        <a href="https://www.facebook.com/adriankyle.javier.7/">
+          <svg width="7" height="14" viewBox="0 0 7 14" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.72202 2.32458H7V0.0985833C6.77952 0.06825 6.02125 0 5.13816 0C3.29556 0 2.03333 1.15908 2.03333 3.28942V5.25H0V7.7385H2.03333V14H4.52629V7.73908H6.47738L6.7871 5.25058H4.52571V3.53617C4.52629 2.81692 4.71994 2.32458 5.72202 2.32458Z" fill="white" />
+          </svg>
+        </a>
+       
+        </a>
+        <button class="btnn header-btn btnn-border-light">Let’s Talk</button>
+      </div>
+    </header>
+
+    <!-- Mobile menu section Start-->
+    <div class="mobile-bars-position">
+      <div class="mobile-bar">
+        <button class="btn mbl-bar menu-btn line-mbl-responsive" onclick="menutogglemoobile()">
+          <span></span>
+        </button>
+      </div>
+    </div>
+    <aside class="mobile-menu-wrapper" id="mobile-menu-wrapper" style="visibility: hidden;">
+      <div class="background-opacity"></div>
+      <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+          <img src="images/logo.svg" alt="">
+          <div class="mobile-menu-bar">
+            <button class="menu-btn" id="closeMenu">
+              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve">
+                <g>
+                  <g>
+                    <path d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717
+		L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859
+		c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287
+		l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285
+		L284.286,256.002z" />
+                  </g>
+                </g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#dreamjob">Dream Job</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#portfolio">portfolio</a>
+          </li>
+          <li>
+            <a href="#hobbies">HobbiesInterest</a>
+          </li>
+        </ul>
+        <div class="header-mbl-social-icon">
+          <a href="#">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 0C3.595 0 0 3.59531 0 8C0 12.405 3.59531 16 8 16C12.405 16 16 12.4047 16 8C16 3.595 12.4047 0 8 0ZM13.4263 3.48469C14.425 4.68281 15.0347 6.21562 15.0609 7.8875C13.8091 7.59469 12.4187 7.575 11.0028 7.83313C10.6344 7.90031 10.2659 7.98563 9.89969 8.08813C9.77781 7.75656 9.64844 7.42781 9.51094 7.10219C9.37063 6.77 9.2225 6.44344 9.0675 6.12156C10.7547 5.47719 12.5828 4.51781 13.4263 3.48469ZM8 0.9375C9.83813 0.9375 11.5141 1.64344 12.7719 2.79813C12.2812 3.46719 10.8831 4.44125 8.64 5.28125C7.85688 3.82312 6.91781 2.48313 5.83281 1.27813C6.51594 1.05719 7.24438 0.9375 8 0.9375ZM4.90469 1.65313C6.01125 2.83844 6.96313 4.16219 7.74719 5.59219C5.41344 6.3475 3.05062 6.65562 1.10781 6.45656C1.58094 4.3425 3.00437 2.58344 4.90469 1.65313ZM0.9375 8C0.9375 7.7925 0.947188 7.58719 0.964688 7.38438C1.39344 7.42969 1.84063 7.4525 2.30281 7.4525C4.12563 7.4525 6.17344 7.10187 8.18437 6.43594C8.49125 7.06406 8.76719 7.71031 9.01062 8.3725C8.22656 8.65438 7.46344 9.01281 6.74687 9.43937C4.99 10.4853 3.70469 11.8309 3.17156 13.1491C1.7975 11.8597 0.9375 10.0284 0.9375 8ZM8 15.0625C6.49094 15.0625 5.09094 14.5866 3.94187 13.7769C4.29812 12.5731 5.50313 11.2709 7.22656 10.245C7.83375 9.88313 8.54375 9.54219 9.31656 9.265C9.86438 10.9869 10.2 12.8044 10.3066 14.6753C9.58344 14.9259 8.8075 15.0625 8 15.0625ZM11.2209 14.2844C11.0909 12.4619 10.7516 10.6875 10.2069 8.98312C11.7256 8.56563 13.4125 8.42562 15.0122 8.84062C14.7291 11.2159 13.2628 13.2334 11.2209 14.2844Z" fill="white" />
+            </svg>
+          </a>
+          <a href="#">
+            <svg width="7" height="14" viewBox="0 0 7 14" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.72202 2.32458H7V0.0985833C6.77952 0.06825 6.02125 0 5.13816 0C3.29556 0 2.03333 1.15908 2.03333 3.28942V5.25H0V7.7385H2.03333V14H4.52629V7.73908H6.47738L6.7871 5.25058H4.52571V3.53617C4.52629 2.81692 4.71994 2.32458 5.72202 2.32458Z" fill="white" />
+            </svg>
+          </a>
+          <a href="#">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11.352 0H4.64751C2.08472 0 -0.000244141 2.08497 -0.000244141 4.64775V11.3523C-0.000244141 13.915 2.08472 16 4.64751 16H11.352C13.9148 16 15.9998 13.915 15.9998 11.3523V4.64775C15.9998 2.08497 13.9148 0 11.352 0ZM14.7498 11.3523C14.7498 13.2258 13.2255 14.75 11.352 14.75H4.64751C2.77397 14.75 1.24976 13.2258 1.24976 11.3523V4.64775C1.24976 2.77422 2.77397 1.25 4.64751 1.25H11.352C13.2255 1.25 14.7498 2.77422 14.7498 4.64775V11.3523Z" fill="white" />
+              <path d="M7.99976 3.6875C5.62182 3.6875 3.68726 5.62206 3.68726 8C3.68726 10.3779 5.62182 12.3125 7.99976 12.3125C10.3777 12.3125 12.3123 10.3779 12.3123 8C12.3123 5.62206 10.3777 3.6875 7.99976 3.6875ZM7.99976 11.0625C6.3111 11.0625 4.93726 9.68866 4.93726 8C4.93726 6.31134 6.3111 4.9375 7.99976 4.9375C9.68841 4.9375 11.0623 6.31134 11.0623 8C11.0623 9.68866 9.68841 11.0625 7.99976 11.0625Z" fill="white" />
+              <path d="M12.3748 4.25C12.7199 4.25 12.9998 3.97018 12.9998 3.625C12.9998 3.27982 12.7199 3 12.3748 3C12.0296 3 11.7498 3.27982 11.7498 3.625C11.7498 3.97018 12.0296 4.25 12.3748 4.25Z" fill="white" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- banner section start-->
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-0 banner--content align-self-center">
+            <div class="banner--content--left">
+              <h4 class="wow bounceInUp">Hello, I’m A</h4>
+              <h2 class="wow bounceInUp">Adrian <span>Javier</span>
+              </h2>
+              <p>Bachelor of Science in Information Technology @ Laguna University
+              </p>
+          
+            </div>
+            <div class="srolll-drwn">
+              <a href="#dreamjob" class="wow bounceInUp">Scroll Down
+                <br>to Explore
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-0">
+            <div class="banner--content--right">
+              <img src="images/b0680c09-2c11-4a32-8924-cd866bc0de05-transformed (1).png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <div class="header-curve">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#F0FCF9" fill-opacity="1" d="M0,128L60,138.7C120,149,240,171,360,176C480,181,600,171,720,154.7C840,139,960,117,1080,133.3C1200,149,1320,203,1380,229.3L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+      </path>
+    </svg>
+  </div>
+
+  <section class="about-elementss" id="dreamjob">
+    <div class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="about--img">
+              <img src="images/soft.png" alt="Man Image">
+              <div class="info-item info-item-one">
+                <span></span>
+                <p>Planning</p>
+              </div>
+              <div class="info-item info-item-two">
+                <span></span>
+                <p>DevOps</p>
+              </div>
+              <div class="info-item info-item-three">
+                <span></span>
+                <p>Software Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 align-self-center">
+            <div class="about--right">
+              <span>let me introduce myself</span>
+              <h3>Dream Job</h3>
+              <h5>Become a Software Engineer. </h5>
+              <p>Most people imagine their dream job is to become a famous actor or a job they have seen done many times. Though because of the progression of technology I feel I would be more suited in a field involving computers.
+              </p>
+              
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-element">
+      <img src="images/about-dots.png" alt="">
+    </div>
+    <div class="about-element-left">
+      <img src="images/about-left-element.png" alt="">
+    </div>
+    <div class="about-element-left-botton">
+      <img src="images/about-left-bottom-element.png" alt="">
+    </div>
+  </section>
+
+        <div class="background-element">
+          <img src="images/background-element.png" alt="">
+        </div>
+        <div class="dots-element">
+          <img src="images/Dots-element.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="portfolio-content">
+        <div class="portfolio-header">
+          <div class="common--header">
+            <p class="common--header--subtitle">Some of my activity</p>
+            <h5 class="common--header--title">Portfolio</h5>
+          </div>
+        </div>
+        <div class="portfolio-menu">
+          <ul class="tab-list">
+            <li data-filter="*" class="tab-item is-active">All Activity</li>
+            <li data-filter=".uiux" class="tab-item">Summit Team Building</li>
+            <li data-filter=".branding" class="tab-item">Me and Activity</li>
+            <li data-filter=".graphic" class="tab-item">Summit Activity</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="row all-items-portfolio justify-content-center">
+      <div class="col-lg-4  col-xl-3 col-md-6 item-portfolio uiux">
+        <div class="card">
+          <img src="images/firstrunnerup.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="#">CCS Olympics 2024 First Runner Up</a>
+            <div class="card-body-footer">
+              <span>8th May, 2024</span>
+              <span>By CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4  col-xl-3 col-md-6 item-portfolio graphic">
+        <div class="card">
+          <img src="images/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="#">CCS Summit 2024</a>
+            <div class="card-body-footer">
+              <span>13th March, 2024</span>
+              <span>By CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4  col-xl-3 col-md-6 item-portfolio branding uiux">
+        <div class="card">
+          <img src="images/2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="">CCS Summit 2024</a>
+            <div class="card-body-footer">
+              <span>13th March, 2024</span>
+              <span>By CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4  col-xl-3 col-md-6 item-portfolio graphic">
+        <div class="card">
+          <img src="images/3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="">CCS Summit 2024</a>
+            <div class="card-body-footer">
+              <span>13th March, 2024</span>
+              <span>By CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4  col-xl-3 col-md-6 item-portfolio uiux branding">
+        <div class="card">
+          <img src="images/4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="">CCS Summit 2024</a>
+            <div class="card-body-footer">
+              <span>13th March, 2024</span>
+              <span>By CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4  col-xl-3 col-md-6 item-portfolio branding uiux">
+        <div class="card">
+          <img src="images/5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="">CCS Summit 2024</a>
+            <div class="card-body-footer">
+              <span>13th March, 2024</span>
+              <span>By CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4  col-xl-3 col-md-6 item-portfolio  graphic">
+        <div class="card">
+          <img src="images/6.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="">CCS Summit 2024</a>
+            <div class="card-body-footer">
+              <span>13th March, 2024</span>
+              <span>By CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4  col-xl-3 col-md-6 item-portfolio graphic">
+        <div class="card">
+          <img src="images/7.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <a href="">CCS Summit 2024</a>
+            <div class="card-body-footer">
+              <span>13th March, 2024</span>
+              <span>By CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonial" id="education">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="testeee">
+            <img src="images/bg.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="testimonial-content">
+            <div class="header-test-content">
+              <div class="common--header testimonial-header">
+                <p class="common--header--subtitle"></p>
+                <h5 class="common--header--title">EDUCATION</h5>
+              </div>
+              <div class="testimonial-arrows ">
+                <div class="portfolio-arrows-left swiper-button-next">
+                  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22.1666 14L5.83329 14" stroke="#21272F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M10.5 18.6667L5.83333 14.0001L10.5 9.33341" stroke="#21272F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <div class="portfolio-arrows-right swiper-button-prev">
+                  <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.83337 14H22.1667" stroke="#21272F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M17.5 9.33325L22.1667 13.9999L17.5 18.6666" stroke="#21272F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="testimonial-slider-content swiper testimonialSlider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="slider-item">
+                    <p>College: Laguna University
+                      Bachelor Of Science In Information Technology
+                      Sta.Cruz Laguna
+                     </p>
+                    <h3>2023-2024</h3>
+                    <span></span>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slider-item">
+                    <p>Secondary: Masapang Integrated National Highschool
+                      Masapang Victoria Laguna
+                      </p>
+                    <h3>2019-2020</h3>
+                    <span></span>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slider-item">
+                    <p>Elementary: Banca-Banca Elementary School
+                      Banca-Banca Victoria Laguna
+                      </p>
+                    <h3>2016-2017</h3>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-background-element">
+      <img src="images/about-dots.png" alt="">
+    </div>
+    <div class="testimonial-background-element-left">
+      <img src="images/testimonial-element-left.png" alt="">
+    </div>
+  </section>
+
+  
+  <section class="blog" id="hobbiesinterest">
+    <div class="common--header text-center blog-header">
+      <p class="common--header--subtitle"></p>
+      <h5 class="common--header--title">Hobbies and Interest</h5>
+    </div>
+    <div class="blog--body">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <a href="">
+                <img src="images/arnold-francisca-f77Bh3inUpE-unsplash.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+                <a href="">Mastering Java Fundamentals</a>
+                <div class="card-body-footer">
+                  <span></span>
+                  <span class="card-dots"></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <a href="">
+                <img src="images/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+                <a href="">Mastering HTML/CSS</a>
+                <div class="card-body-footer">
+                  <span></span>
+                  <span class="card-dots"></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <a href="">
+                <img src="images/2e73c9d2-7877-4377-b2fd-10a2f8e081b1.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+                <a href="">Playing Sepak</a>
+                <div class="card-body-footer">
+                  <span>Provincial Last 2019</span>
+                  <span class="card-dots"></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blog-background-element">
+      <img src="images/dots.svg" alt="">
+    </div>
+    <div class="blog-element-top">
+      <svg width="207" height="43" viewBox="0 0 207 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.2" d="M43 20L59.7365 3.47013C61.684 1.5467 64.816 1.5467 66.7635 3.47013L79.9865 16.5299C81.934 18.4533 85.066 18.4533 87.0135 16.5299L100.236 3.47013C102.184 1.5467 105.316 1.5467 107.264 3.47013L120.486 16.5299C122.434 18.4533 125.566 18.4533 127.514 16.5299L140.736 3.47013C142.684 1.5467 145.816 1.5467 147.764 3.47013L160.986 16.5299C162.934 18.4533 166.066 18.4533 168.014 16.5299L181.236 3.47013C183.184 1.5467 186.316 1.5467 188.264 3.47013L205 20" stroke="#29D882" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel" />
+        <path opacity="0.2" d="M2 41L18.7365 24.4701C20.684 22.5467 23.816 22.5467 25.7635 24.4701L38.9865 37.5299C40.934 39.4533 44.066 39.4533 46.0135 37.5299L59.2365 24.4701C61.184 22.5467 64.316 22.5467 66.2635 24.4701L79.4865 37.5299C81.434 39.4533 84.566 39.4533 86.5135 37.5299L99.7365 24.4701C101.684 22.5467 104.816 22.5467 106.764 24.4701L119.986 37.5299C121.934 39.4533 125.066 39.4533 127.014 37.5299L140.236 24.4701C142.184 22.5467 145.316 22.5467 147.264 24.4701L164 41" stroke="#29D882" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel" />
+      </svg>
+    </div>
+  </section>
+
+  <div class="footer-curve ">
+    <img src="images/Contact-bg.png" alt="">
+  </div>
+
+  <section class="contact" id="#">
+    <div class="common--header text-center">
+      <a href="#dreamjob" class="wow bounceInUp"><br>Click To Scroll Up</a>
+      <p class="common--header--subtitle"></p>
+      <h5 class="common--header--title contact-header-color"></h5>
+    </div>
+    <div class="container contact-border">
+      <div class="row">
+       
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <footer class="secondary-footer">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-lg-4 align-self-center">
+          <div class="secondary-footer-mid">
+            <span></span>
+          </div>
+        </div>
+        <div class="col-lg-4 align-self-center">
+          <div class="secondary-footer-right">
+            <select name="mode" id="themeMode">
+              <option value="dark" selected>dark</option>
+              <option value="light">dark</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <!-- Custom  js-->
+  <script src="js/main.js"></script>
+
+  <!-- responsive menu js-->
+  <script>
+    var mobileMenuWrapper = document.getElementById("mobile-menu-wrapper");
+    function hideMenu() {
+      mobileMenuWrapper.style.visibility = "hidden";
+      mobileMenuWrapper.classList.remove('active');
+    }
+    function showMenu() {
+      mobileMenuWrapper.style.visibility = "visible";
+      mobileMenuWrapper.classList.add('active');
+    }
+    function menutogglemoobile() {
+      if (mobileMenuWrapper.style.visibility === "hidden") {
+        showMenu();
+      } else {
+        hideMenu();
+      }
+    }
+    var x = document.getElementById("closeMenu");
+    x.addEventListener('click', function () {
+      hideMenu();
+    })
+    // hide menu when click outside menu container
+    var overlay = document.getElementsByClassName('background-opacity')[0];
+    overlay.addEventListener('click', function () {
+      hideMenu();
+    })
+  </script>
+</body>
+
+</html>
